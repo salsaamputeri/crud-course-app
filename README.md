@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Selamat Datang Di Crud Course App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projek ini adalah aplikasi dari react yang dibuat untuk mewadahi kebutuhan CRUD sebuah course online dengan memanajemen data kursus dan materi di dalamnya.
 
-## Available Scripts
+## Berikut Beberapa Tampilan dari Project Ini
+<p align="center">
+  <img src="https://github.com/salsaamputeri/crud-course-app/blob/main/public/screenshoot%20awal.png" alt="bagian awal aplikasi">
+  <br>
+  <em>Tampilan Bagian Awal Aplikasi</em>
+</p>
+<br>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://github.com/salsaamputeri/crud-course-app/blob/main/public/alert.png" alt="alert">
+  <br>
+  <em>Dalam menambah dan mengedit data mengenai kursus maupun materials, pastikan semua kolom input sudah terisi</em>
+</p>
+<br>
 
+<p align="center">
+  <img src="https://github.com/salsaamputeri/crud-course-app/blob/main/public/lihat%20materials.png" alt="lihat materials">
+  <br>
+  <em>Untuk melihat list materials setiap coursenya, klik button edit pada course yang diinginkan</em>
+</p>
+<br>
+
+<p align="center">
+  <img src="https://github.com/salsaamputeri/crud-course-app/blob/main/public/tambah%20material.png" alt="tambah materials">
+  <br>
+  <em>Tambah materials dengan mengisi semua kolom input add new materials lalu klik button tambah</em>
+</p>
+<br>
+
+<p align="center">
+  <img src="https://github.com/salsaamputeri/crud-course-app/blob/main/public/edit%20material.png" alt="edit materials">
+  <br>
+  <em>Edit materials dengan mengklik button edit dan lakukan save dengan klik button save</em>
+</p>
+
+<br>
+<p> :red_circle: <strong>Projek masih dalam tahap pengembangan dan setiap saran dan masukkan sangat diapresiasi </strong>
+
+## Akses Kode Course App
+
+### Sebelum clone, siapkan dulu
+Pastikan kamu telah menginstal *software* berikut pada lokal:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+#### 1. Clone repository ini
+Clone repository dengan mendownload berkas zip dari repository ini *(main)*, atau dengan menjalankan perintah berikut pada terminal:
+
+```bash
+    $ git clone https://github.com/salsaamputeri/crud-course-app
+```
+
+#### 2. Buka repository di IDE pilihanmu
+Dalam pengembangan aplikasi menggunakan Visual Studio Code, lalu pada terminal masuk ke repository app ini.
+
+```bash
+   $ cd crud-course-app
+```   
+
+#### 3. Pasang dependencies yang diperlukan
+Pasang dependencies yang diperlukan dalam project ini
+
+```bash
+   $ npm install
+```
+
+Pada directory projek, gunakan perintah berikut pada terminal:
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Menjalankan kode pada mode pengembangan.\
+Buka [http://localhost:3000](http://localhost:3000) untuk melihat pada browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Halaman akan memuat secara otomatis saat ada perubahan.\
+Proyek ini menggunakan eslint untuk kerapihan code, lihat error eslint yang mungkin ada pada console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
