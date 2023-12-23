@@ -77,3 +77,4 @@ Buka [http://localhost:3000](http://localhost:3000) untuk melihat pada browser.
 Halaman akan memuat secara otomatis saat ada perubahan.\
 Proyek ini menggunakan eslint untuk kerapihan code, lihat error eslint yang mungkin ada pada console.
 
+## Anda dapat menemukan lebih banyak proyek menarik di [profil GitHub saya](https://github.com/salsaamputeri). Terima kasih atas kunjungan Anda!
